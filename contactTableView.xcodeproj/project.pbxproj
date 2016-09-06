@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2816DA1D7B758000EC9ED6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2816D91D7B758000EC9ED6 /* Contact.swift */; };
+		5A2816FA1D7B7B7900EC9ED6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2816F91D7B7B7900EC9ED6 /* DetailViewController.swift */; };
 		5AFA339E1D78872F0076AA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA339D1D78872F0076AA64 /* AppDelegate.swift */; };
 		5AFA33A01D7887300076AA64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA339F1D7887300076AA64 /* ViewController.swift */; };
 		5AFA33A31D7887300076AA64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA33A11D7887300076AA64 /* Main.storyboard */; };
 		5AFA33A51D7887300076AA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA33A41D7887300076AA64 /* Assets.xcassets */; };
 		5AFA33A81D7887300076AA64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA33A61D7887300076AA64 /* LaunchScreen.storyboard */; };
+		5AFA33B01D788E2F0076AA64 /* ContactsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA33AF1D788E2F0076AA64 /* ContactsTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2816D91D7B758000EC9ED6 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5A2816F91D7B7B7900EC9ED6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5AFA339A1D78872F0076AA64 /* contactTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contactTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFA339D1D78872F0076AA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AFA339F1D7887300076AA64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		5AFA33A41D7887300076AA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AFA33A71D7887300076AA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AFA33A91D7887300076AA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFA33AF1D788E2F0076AA64 /* ContactsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				5AFA339D1D78872F0076AA64 /* AppDelegate.swift */,
 				5AFA339F1D7887300076AA64 /* ViewController.swift */,
 				5AFA33A11D7887300076AA64 /* Main.storyboard */,
+				5A2816F91D7B7B7900EC9ED6 /* DetailViewController.swift */,
+				5AFA33AF1D788E2F0076AA64 /* ContactsTableTableViewController.swift */,
+				5A2816D91D7B758000EC9ED6 /* Contact.swift */,
 				5AFA33A41D7887300076AA64 /* Assets.xcassets */,
 				5AFA33A61D7887300076AA64 /* LaunchScreen.storyboard */,
 				5AFA33A91D7887300076AA64 /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2816DA1D7B758000EC9ED6 /* Contact.swift in Sources */,
+				5AFA33B01D788E2F0076AA64 /* ContactsTableTableViewController.swift in Sources */,
+				5A2816FA1D7B7B7900EC9ED6 /* DetailViewController.swift in Sources */,
 				5AFA33A01D7887300076AA64 /* ViewController.swift in Sources */,
 				5AFA339E1D78872F0076AA64 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +298,7 @@
 				5AFA33AE1D7887300076AA64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
